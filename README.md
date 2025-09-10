@@ -18,10 +18,11 @@
         nav ul li { margin-left: 2rem; }
         nav ul li a { color: #fff; text-decoration: none; font-weight: 500; transition: color 0.3s; }
         nav ul li a:hover { color: #f39c12; }
+        .menu-toggle { display: none; }
 
         /* Hero Section */
         #hero {
-            background: url('hero-bg.jpg') no-repeat center center/cover;
+            background: url('https://via.placeholder.com/1920x1080/333/fff?text=Hero+Image') no-repeat center center/cover;
             height: 100vh; display: flex; justify-content: center; align-items: center; text-align: center; color: #fff;
         }
         #hero h1 { font-size: 3rem; margin-bottom: 1rem; }
@@ -62,7 +63,6 @@
             nav ul li { margin: 1rem 0; }
             .menu-toggle { display: block; cursor: pointer; font-size: 1.5rem; color: #fff; }
         }
-        .menu-toggle { display: none; }
     </style>
 </head>
 <body>
@@ -102,19 +102,19 @@
         <h2>Projects</h2>
         <div class="projects-container">
             <div class="project-card">
-                <img src="project1.jpg" alt="Project 1">
+                <img src="https://via.placeholder.com/300x200/3498db/fff?text=Project+1" alt="Project 1">
                 <h3>Autonomous Claw Project</h3>
                 <p>Developed a robotic claw with autonomous navigation for object retrieval using sensors and actuators.</p>
                 <a href="#" class="btn">View Details</a>
             </div>
             <div class="project-card">
-                <img src="project2.jpg" alt="Project 2">
+                <img src="https://via.placeholder.com/300x200/2ecc71/fff?text=Project+2" alt="Project 2">
                 <h3>Rescue Robot</h3>
                 <p>Designed and built an autonomous robot capable of navigating obstacles and performing rescue tasks.</p>
                 <a href="#" class="btn">View Details</a>
             </div>
             <div class="project-card">
-                <img src="project3.jpg" alt="Project 3">
+                <img src="https://via.placeholder.com/300x200/e74c3c/fff?text=Project+3" alt="Project 3">
                 <h3>Solar Microgrid Design</h3>
                 <p>Engineered a solar microgrid system with battery storage for remote communities.</p>
                 <a href="#" class="btn">View Details</a>
